@@ -1,0 +1,16 @@
+body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Lato', sans-serif; }
+
+main {
+  width: 70%;
+  margin: 0 auto; }
+
+textarea {
+  width: 30%;
+  height: 90px;
+  margin-top: 2%; }
+
+/*# sourceMappingURL=styles.css.map */
