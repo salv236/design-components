@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
 	<head>
-		<title> ToDoList</title>
+		<title> Emergecy Medical contact Form</title>
 			<meta charset="UTF-8">
 			<meta name="viewport" content="width=device-width, initial-scale=1.0">
 			<!--<meta name="description" content="#">-->
@@ -126,7 +126,7 @@
 
 			<!-- border-bottom-->
 
-			<h2>Emergency Contact</h2>
+			<h3>Emergency Contact</h3>
 
 			<p>Name</p>
 
@@ -138,24 +138,104 @@
 				<label> Last</label>
 			</div>
 
-			<h2>Address</h2>
+			<h3>Address</h3>
 
 			<div>
 				
 				<input type="text" name="address-line-1">
 				<label>Street Address</label>
+			</div>
 
+			<div>
 				<input type="text" name="address-line-2">
 				<label>Address Line 2</label>
+			</div>
 
+			<div>
 				<input type="text" name="city" >
 				<label>City</label>
+			</div>
 
 				<input type="text" name="state" >
 				<label>State/Province/Region</label>
 
 				<input type="text" name="postcode">
+				<label> Zip/Postcode</label>
+			
+			<div>
+				<select name="country">
+					<option value="--Select Your Country--" selected>--Select Your Country--</option>
+					<option value="Canada"> Canada</option>
+					<option value="US"> US</option>
+					<option value="Sicily"> Sicily</option>
+					<option value="Spain"> Spain</option>
+					<option value="Australia"> Australia</option>
+					<option value="Romania"> Romania</option>
+				</select>
 			</div>
+
+			<div>
+
+				<h3> Home Phone </h3>
+				<input type="text" name="home-phone1">
+				<label>###</label>
+
+				<input type="text" name="home-phone2">
+				<label>###</label>
+
+				<input type="text" name="home-phone3">
+				<label>###</label>
+			</div>
+
+			<div>
+
+				<h3> Work Phone</h3>
+				<input type="text" name="work-phone1">
+				<label>###</label>
+
+				<input type="text" name="work-phone2">
+				<label>###</label>
+
+				<input type="text" name="work-phone3">
+				<label>###</label>
+				
+			</div>
+
+			<!-- border bottom-->
+			<div>
+				<h3> Medical Information </h3>
+				<label> Hospital/ Clinical Information</label>
+				<input type="text" name="hospital">
+			</div>
+
+			<div>
+				
+				<label> Insurance Company</label>
+				<input type="text" name="insurance">
+
+				<label> Policy Number</label>
+				<input type="text" name="insurance">
+			</div>
+
+			<div>
+				<label>Physician's Name</label>
+				<input type="text" name="physician">
+
+				<p>Phone Number: </p>
+				<input type="text" name="physician-tel-1">
+				<label>###</label>
+				<input type="text" name="physician-tel-2">
+				<label>###</label>
+				<input type="text" name="physician-tel-3">
+				<label>###</label>
+			</div>
+
+			<div>
+				<label> Alergies/ Special Health Considerations</label>
+				<textarea> </textarea>
+			</div>
+
+			<input type="submit" name="submit">
 			
 		</form>
 		
