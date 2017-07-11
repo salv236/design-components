@@ -11,12 +11,69 @@ main {
   padding: 2% 5%;
   border: 1px groove #e3e3e3; }
 
+h1 {
+  border-bottom: 1px dashed #e3e3e3;
+  padding-bottom: 2%; }
+
+div #landline {
+  clear: left; }
+
+#gender {
+  float: left;
+  width: 45%;
+  margin-top: 2%; }
+
+#birthdate {
+  float: right;
+  width: 55%;
+  margin-top: 2%; }
+
 .full {
   width: 100%; }
 
-textarea {
-  width: 60%;
-  height: 100px;
+#year {
+  padding-bottom: 2%; }
+
+#emergency {
+  border-top: 1px dashed #e3e3e3;
+  padding-top: 2%; }
+
+#state, #zip {
+  width: 50%;
+  float: left; }
+
+#zip p {
+  display: block; }
+
+#state p {
+  display: block; }
+
+#work-phone {
+  border-bottom: 1px dashed #e3e3e3; }
+
+#medical-info {
+  border-top: 1px dashed #e3e3e3;
+  padding-top: 2%; }
+
+#insurance {
   margin-top: 2%; }
+
+.physician .physician-no {
+  width: 12%; }
+
+textarea {
+  width: 90%;
+  height: 120px;
+  margin-top: 2%; }
+
+#text {
+  display: block; }
+
+p {
+  display: inline-block; }
+
+/*GLOBAL*/
+.move-left {
+  margin-left: 20%; }
 
 /*# sourceMappingURL=styles.css.map */

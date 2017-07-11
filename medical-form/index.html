@@ -25,13 +25,14 @@
 
 					<h2> Name </h2>
 					<input type="text" name="first">
-					<label> First</label>
-					<input type="text" name="last">
-					<label>Last</label>
+					<input type="text" name="last"> <br>
+					
+					<p> First</p>
+					<p class="move-left">Last</p>
 				
 			</div>
 
-			<div>
+			<div id="gender">
 				<p> Gender</p>
 
 				<select name="gender">
@@ -42,14 +43,13 @@
 
 				</div>
 
-				<div>
+				<div id="birthdate">
 
 					<p> Date Of Birth</p>
 
 					<select name="day">
 						
-						<option value ="--Select Your Day" selected> --Select Your Day-- </option>
-						<option value ="01"> 01</option>
+						<option value ="01" select> 01</option>
 						<option value ="02"> 02</option>
 						<option value ="03"> 03</option>
 						<option value ="04"> 04</option>
@@ -82,12 +82,11 @@
 						<option value ="31"> 31</option>
 
 					</select>
-					<label> Day</label>
+					<p> Day</p>
 
 					<select name="month">
 						
-						<option value="--Select Your Month--" selected> --Select Your Month-- </option>
-						<option value="Jan"> 01 </option>
+						<option value="Jan" select> 01 </option>
 						<option value="Feb"> 02 </option>
 						<option value="March"> 03 </option>
 						<option value="April"> 04 </option>
@@ -103,8 +102,7 @@
 					<label> Month</label>
 
 					<select name="year">
-					<option value="--Please Select Your Year--" selected>--Please Select Your Year--</option>
-					<option value="2000"> 2000</option>
+					<option value="2000" select> 2000</option>
 					<option value="2001"> 2001</option>
 					<option value="2002"> 2002</option>
 					<option value="2003"> 2003</option>
@@ -123,22 +121,24 @@
 					<option value="2016"> 2016</option>
 					<option value="2017"> 2017</option>
 					</select>
-					<label>Year</label>
+					<label id="year">Year</label>
 
 				</div>
 
 				<!-- border-bottom-->
 
-				<h3>Emergency Contact</h3>
+				<h3 id="emergency">Emergency Contact</h3>
 
 				<p>Name</p>
 
 				<div>
 
-				<input type="text" name="fname">
-					<label> First</label>
-					<input type="text" name="lname">
-					<label> Last</label>
+					<input type="text" name="fname">
+					<input type="text" name="lname"> <br>
+						
+							<p> First</p>
+							<p class="move-left"> Last</p>
+						
 				</div>
 
 				<h3>Address</h3>
@@ -146,26 +146,27 @@
 				<div>
 					
 					<input type="text" name="address-line-1" class="full">
-					<label>Street Address</label>
+					<p>Street Address</p>
 				</div>
 
 				<div>
 					<input type="text" name="address-line-2" class="full">
-					<label>Address Line 2</label>
+					<p>Address Line 2</p>
 				</div>
 
-				<div>
-					<input type="text" name="city" >
-					<label>City</label>
+				<div id="zip">
+					<input type="text" name="city" > <br>
+					<p>City</p>
+
+					<input type="text" name="postcode"> <br>
+					<p> Zip/Postcode</p>
 				</div>
 
-					<input type="text" name="state" >
-					<label>State/Province/Region</label>
+					
+				<div id="state">
+					<input type="text" name="state"> 
+					<p>State/Province/Region</p>
 
-					<input type="text" name="postcode">
-					<label> Zip/Postcode</label>
-				
-				<div>
 					<select name="country">
 						<option value="--Select Your Country--" selected>--Select Your Country--</option>
 						<option value="Canada"> Canada</option>
@@ -177,41 +178,43 @@
 					</select>
 				</div>
 
+		
+		
+
 				<div>
 
-					<h3> Home Phone </h3>
+					<h3 id="landline"> Home Phone </h3>
 					<input type="text" name="home-phone1">
-					<label>###</label>
-
 					<input type="text" name="home-phone2">
-					<label>###</label>
-
-					<input type="text" name="home-phone3">
-					<label>###</label>
+					<input type="text" name="home-phone3"> <br>
+					
+					<p>###</p>
+					<p class="move-left">###</p>
+					<p class="move-left">###</p>
+				
 				</div>
 
 				<div>
 
 					<h3> Work Phone</h3>
 					<input type="text" name="work-phone1">
-					<label>###</label>
-
 					<input type="text" name="work-phone2">
-					<label>###</label>
-
-					<input type="text" name="work-phone3">
-					<label>###</label>
+					<input type="text" name="work-phone3"> <br>
+					
+					<p>###</p>
+					<p class="move-left">###</p>
+					<p id="work-phone" class="move-left">###</p>
 					
 				</div>
 
 				<!-- border bottom-->
-				<div>
+				<div id="medical-info">
 					<h3> Medical Information </h3>
 					<label> Hospital/ Clinical Information</label>
 					<input type="text" name="hospital" class="full">
 				</div>
 
-				<div>
+				<div id="insurance">
 					
 					<label> Insurance Company</label>
 					<input type="text" name="insurance">
@@ -220,22 +223,23 @@
 					<input type="text" name="insurance">
 				</div>
 
-				<div>
+				<div class="physician">
 					<label>Physician's Name</label>
 					<input type="text" name="physician">
 
 					<p>Phone Number: </p>
-					<input type="text" name="physician-tel-1">
-					<label>###</label>
-					<input type="text" name="physician-tel-2">
-					<label>###</label>
-					<input type="text" name="physician-tel-3">
-					<label>###</label>
+					<input type="text" name="physician-tel-1" class="physician-no">
+					<input type="text" name="physician-tel-2" class="physician-no">
+					<input type="text" name="physician-tel-3" class="physician-no"> <br>
+
+					<p>###</p>
+					<p class="move-left">###</p>
+					<p class="move-left">###</p>
 				</div>
 
 				<div>
-					<label> Alergies/ Special Health Considerations</label>
 					<textarea> </textarea>
+					<p id="text"> Alergies/ Special Health Considerations</p>
 				</div>
 
 				<input type="submit" name="submit">
