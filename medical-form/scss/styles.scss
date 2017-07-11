@@ -5,15 +5,22 @@ body{
 	padding:0;
 	box-sizing:border-box;
 	font-family: 'Lato', sans-serif;
+	/*background-color:#d2d2d2; */
 }
 
 main{
-	width:70%;
+	width:50%;
 	margin:0 auto;
+	padding: 2% 5%;
+	border:1px groove #e3e3e3;
+}
+
+.full{
+	width:100%;
 }
 
 textarea{
-	width: 30%;
-    height: 90px;
+	width: 60%;
+    height: 100px;
     margin-top: 2%;
 }
