@@ -1,0 +1,30 @@
+body {
+  font-family: "Bellefair", serif; }
+
+footer {
+  width: 99%;
+  height: 7 0px;
+  background-color: #f7f7f7;
+  position: absolute;
+  bottom: 0; }
+
+#copyright {
+  float: left;
+  outline: 1px solid black; }
+
+.icons {
+  float: right; }
+
+#menu-items {
+  float: right; }
+
+#menu-items ul {
+  list-style: none; }
+
+#menu-items ul li {
+  display: inline; }
+
+#menu-items ul li a {
+  text-decoration: none; }
+
+/*# sourceMappingURL=styles.css.map */
