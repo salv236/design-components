@@ -11,12 +11,39 @@ main {
   padding: 2% 5%;
   border: 1px groove #e3e3e3; }
 
+h1 {
+  border-bottom: 1px dashed #e3e3e3;
+  padding-bottom: 2%; }
+
 .full {
   width: 100%; }
 
+#year {
+  padding-bottom: 2%; }
+
+#emergency {
+  border-top: 1px dashed #e3e3e3;
+  padding-top: 2%; }
+
+#work-phone {
+  border-bottom: 1px dashed #e3e3e3; }
+
+#medical-info {
+  border-top: 1px dashed #e3e3e3;
+  padding-top: 2%; }
+
+.physician .physician-no {
+  width: 12%; }
+
 textarea {
-  width: 60%;
-  height: 100px;
+  width: 90%;
+  height: 120px;
   margin-top: 2%; }
+
+#text {
+  display: block; }
+
+p {
+  display: inline-block; }
 
 /*# sourceMappingURL=styles.css.map */
