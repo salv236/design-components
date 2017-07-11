@@ -25,7 +25,8 @@ div #landline {
 
 #birthdate {
   float: right;
-  width: 55%; }
+  width: 55%;
+  margin-top: 2%; }
 
 .full {
   width: 100%; }
