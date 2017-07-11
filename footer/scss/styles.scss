@@ -1,0 +1,41 @@
+$bcolor: #f7f7f7;
+$font: 'Bellefair', serif;
+
+body{
+	font-family: $font;
+}
+
+footer{
+	width:99%;
+	height:7 0px;
+	background-color:$bcolor;
+	position:absolute;
+	bottom:0;
+
+}
+
+#copyright{
+	float:left;
+	outline:1px solid black;
+}
+
+.icons{
+	float:right
+}
+
+#menu-items{
+	float:right;
+}
+
+#menu-items ul{
+	list-style:none;
+}
+
+#menu-items ul li{
+	display:inline;
+	
+}
+
+#menu-items ul li a{
+	text-decoration:none;
+}
