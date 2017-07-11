@@ -10,13 +10,32 @@ main {
   margin: 0 auto;
   padding: 2% 5%;
   border: 1px groove #e3e3e3; }
+  main h1 {
+    border-bottom: 1px dashed #e3e3e3;
+    padding-bottom: 2%;
+    font-size: 175%; }
 
-h1 {
-  border-bottom: 1px dashed #e3e3e3;
-  padding-bottom: 2%; }
+div h2 {
+  font-size: 140%;
+  margin: 1.5% 0; }
 
-div #landline {
+.address h3 {
+  margin: 1.5% 0; }
+.address p {
+  margin: 1.5% 0; }
+
+.address-2 p {
+  margin: 1.5% 0; }
+
+h3 {
+  font-size: 125%; }
+
+#landline h3 {
+  margin: 1.5% 0;
   clear: left; }
+
+.work h3 {
+  margin: 1.5% 0; }
 
 #gender {
   float: left;
@@ -36,7 +55,8 @@ div #landline {
 
 #emergency {
   border-top: 1px dashed #e3e3e3;
-  padding-top: 2%; }
+  padding-top: 2%;
+  margin: 1.5% 0; }
 
 #state, #zip {
   width: 50%;
@@ -44,9 +64,12 @@ div #landline {
 
 #zip p {
   display: block; }
+#zip p:first-of-type, #zip p:last-of-type {
+  margin: 1.5% 0; }
 
 #state p {
-  display: block; }
+  display: block;
+  margin: 1.5% 0; }
 
 #work-phone {
   border-bottom: 1px dashed #e3e3e3; }
@@ -54,12 +77,13 @@ div #landline {
 #medical-info {
   border-top: 1px dashed #e3e3e3;
   padding-top: 2%; }
+  #medical-info h3, #medical-info input {
+    margin: 1.5% 0; }
 
 #insurance {
   margin-top: 2%; }
-
-.physician .physician-no {
-  width: 12%; }
+  #insurance .physician-no {
+    width: 12%; }
 
 textarea {
   width: 90%;
@@ -74,6 +98,6 @@ p {
 
 /*GLOBAL*/
 .move-left {
-  margin-left: 20%; }
+  margin-left: 15%; }
 
 /*# sourceMappingURL=styles.css.map */

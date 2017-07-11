@@ -5,8 +5,8 @@
 			<meta charset="UTF-8">
 			<meta name="viewport" content="width=device-width, initial-scale=1.0">
 			<!--<meta name="description" content="#">-->
-			<!--<link rel="stylesheet" href="css/font-awesome.css"> -->
 			<link href="https://fonts.googleapis.com/css?family=Lato:400,700" rel="stylesheet">
+			<link rel="stylesheet" href="css/reset.css">
 			<link rel="stylesheet" href="css/styles.css">
 			<!--[if lt IE 9]>
 		  		<script src="//cdnjs.cloudflare.com/ajax/libs/html5shiv/3.7.3/html5shiv.min.js"></script>
@@ -49,7 +49,7 @@
 
 					<select name="day">
 						
-						<option value ="01" select> 01</option>
+						<option value ="01" selected> 01</option>
 						<option value ="02"> 02</option>
 						<option value ="03"> 03</option>
 						<option value ="04"> 04</option>
@@ -86,7 +86,7 @@
 
 					<select name="month">
 						
-						<option value="Jan" select> 01 </option>
+						<option value="Jan" selected> 01 </option>
 						<option value="Feb"> 02 </option>
 						<option value="March"> 03 </option>
 						<option value="April"> 04 </option>
@@ -102,7 +102,7 @@
 					<label> Month</label>
 
 					<select name="year">
-					<option value="2000" select> 2000</option>
+					<option value="2000" selected> 2000</option>
 					<option value="2001"> 2001</option>
 					<option value="2002"> 2002</option>
 					<option value="2003"> 2003</option>
@@ -136,20 +136,18 @@
 					<input type="text" name="fname">
 					<input type="text" name="lname"> <br>
 						
-							<p> First</p>
-							<p class="move-left"> Last</p>
+					<p> First</p>
+					<p class="move-left"> Last</p>
 						
 				</div>
 
-				<h3>Address</h3>
-
-				<div>
-					
+				<div class="address">
+					<h3>Address</h3>
 					<input type="text" name="address-line-1" class="full">
 					<p>Street Address</p>
 				</div>
 
-				<div>
+				<div class="address-2">
 					<input type="text" name="address-line-2" class="full">
 					<p>Address Line 2</p>
 				</div>
@@ -178,32 +176,29 @@
 					</select>
 				</div>
 
-		
-		
+				<div id="landline">
 
-				<div>
-
-					<h3 id="landline"> Home Phone </h3>
+					<h3> Home Phone </h3>
 					<input type="text" name="home-phone1">
 					<input type="text" name="home-phone2">
 					<input type="text" name="home-phone3"> <br>
 					
 					<p>###</p>
-					<p class="move-left">###</p>
-					<p class="move-left">###</p>
+					<span class="move-left">###</span>
+					<span class="move-left">###</span>
 				
 				</div>
 
-				<div>
+				<div class="work">
 
 					<h3> Work Phone</h3>
 					<input type="text" name="work-phone1">
 					<input type="text" name="work-phone2">
 					<input type="text" name="work-phone3"> <br>
 					
-					<p>###</p>
-					<p class="move-left">###</p>
-					<p id="work-phone" class="move-left">###</p>
+					<span>###</span>
+					<span class="move-left">###</span>
+					<span id="work-phone" class="move-left">###</span>
 					
 				</div>
 
@@ -219,22 +214,24 @@
 					<label> Insurance Company</label>
 					<input type="text" name="insurance">
 
-					<label> Policy Number</label>
-					<input type="text" name="insurance">
-				</div>
-
-				<div class="physician">
 					<label>Physician's Name</label>
 					<input type="text" name="physician">
+					
+				</div>
+
+				<div class="insurance">
+
+					<label> Policy Number</label>
+					<input type="text" name="insurance">		
 
 					<p>Phone Number: </p>
 					<input type="text" name="physician-tel-1" class="physician-no">
 					<input type="text" name="physician-tel-2" class="physician-no">
 					<input type="text" name="physician-tel-3" class="physician-no"> <br>
 
-					<p>###</p>
-					<p class="move-left">###</p>
-					<p class="move-left">###</p>
+					<span>###</span>
+					<span class="move-left">###</span>
+					<span class="move-left">###</span>
 				</div>
 
 				<div>
@@ -243,7 +240,6 @@
 				</div>
 
 				<input type="submit" name="submit">
-				
 			</form>
 		</main>
 	</body>

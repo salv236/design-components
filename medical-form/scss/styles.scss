@@ -1,6 +1,4 @@
-$bottom: 1px dashed #e3e3e3;
-$top: 1px dashed #e3e3e3;
-$borderPadding: 2%;
+@import 'variables';
 
 body{
 	margin:0;
@@ -15,17 +13,52 @@ body{
 		margin:0 auto;
 		padding: 2% 5%;
 		border:1px groove #e3e3e3;
-	}
+
 		h1{
 		border-bottom:$bottom;
 		padding-bottom:$borderPadding;
+		font-size: 175%;
 		}
+	}
 
-		div {
-			#landline{
-				clear:left;
-			}
+	div{
+		h2{
+			font-size: 140%;
+			margin: $spacing;
 		}
+	}
+
+	.address{
+		h3{
+			margin:$spacing;
+		}
+		p{
+			margin:$spacing;
+		}
+	}
+
+	.address-2{
+		p{
+			margin:$spacing;	
+		}
+	}
+
+	h3{
+		font-size:125%;
+	}
+
+	#landline{
+		h3{
+			margin:$spacing;
+			clear:left;
+		}
+	}
+
+	.work{
+		h3{
+		margin:$spacing;	
+		}
+	}
 
 		#gender{
 			float:left;
@@ -39,7 +72,6 @@ body{
 			margin-top:2%;
 		}
 
-
 	.full{
 		width:100%;
 	}
@@ -52,6 +84,7 @@ body{
 		#emergency{
 			border-top:$top;
 			padding-top:$borderPadding;
+			margin:$spacing;
 		}
 
 		#state, #zip{
@@ -63,11 +96,15 @@ body{
 			p{
 				display:block;
 			}
+			p:first-of-type, p:last-of-type{
+				margin:$spacing;
+			}
 		}
 
 		#state {
 			p{
 				display:block;
+				margin:$spacing;
 			}
 		}
 	
@@ -80,18 +117,17 @@ body{
 		border-top: $top;
 		padding-top:$borderPadding;
 
+		h3, input{
+			margin:$spacing;
+		}
+
 	}
 
 	#insurance{
 		margin-top:2%;
-	}
-
-	.physician {
-
 		.physician-no{
 			width: 12%;
 		}
-
 	}
 
 	textarea{
@@ -110,5 +146,5 @@ body{
 
 	/*GLOBAL*/
 	.move-left{
-		margin-left:20%;
+		margin-left:15%;
 	}
