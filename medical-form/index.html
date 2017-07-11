@@ -28,11 +28,11 @@
 					<input type="text" name="last"> <br>
 					
 					<p> First</p>
-					<p>Last</p>
+					<p class="move-left">Last</p>
 				
 			</div>
 
-			<div>
+			<div id="gender">
 				<p> Gender</p>
 
 				<select name="gender">
@@ -43,14 +43,13 @@
 
 				</div>
 
-				<div>
+				<div id="birthdate">
 
 					<p> Date Of Birth</p>
 
 					<select name="day">
 						
-						<option value ="--Select Your Day" selected> --Select Your Day-- </option>
-						<option value ="01"> 01</option>
+						<option value ="01" select> 01</option>
 						<option value ="02"> 02</option>
 						<option value ="03"> 03</option>
 						<option value ="04"> 04</option>
@@ -87,8 +86,7 @@
 
 					<select name="month">
 						
-						<option value="--Select Your Month--" selected> --Select Your Month-- </option>
-						<option value="Jan"> 01 </option>
+						<option value="Jan" select> 01 </option>
 						<option value="Feb"> 02 </option>
 						<option value="March"> 03 </option>
 						<option value="April"> 04 </option>
@@ -104,8 +102,7 @@
 					<label> Month</label>
 
 					<select name="year">
-					<option value="--Please Select Your Year--" selected>--Please Select Your Year--</option>
-					<option value="2000"> 2000</option>
+					<option value="2000" select> 2000</option>
 					<option value="2001"> 2001</option>
 					<option value="2002"> 2002</option>
 					<option value="2003"> 2003</option>
@@ -140,7 +137,7 @@
 					<input type="text" name="lname"> <br>
 						
 							<p> First</p>
-							<p> Last</p>
+							<p class="move-left"> Last</p>
 						
 				</div>
 
@@ -157,18 +154,19 @@
 					<p>Address Line 2</p>
 				</div>
 
-				<div>
+				<div id="zip">
 					<input type="text" name="city" > <br>
 					<p>City</p>
+
+					<input type="text" name="postcode"> <br>
+					<p> Zip/Postcode</p>
 				</div>
 
-					<input type="text" name="state" > 
-					<input type="text" name="postcode"> <br>
 					
+				<div id="state">
+					<input type="text" name="state"> 
 					<p>State/Province/Region</p>
-					<p> Zip/Postcode</p>
-				
-				<div>
+
 					<select name="country">
 						<option value="--Select Your Country--" selected>--Select Your Country--</option>
 						<option value="Canada"> Canada</option>
@@ -180,16 +178,19 @@
 					</select>
 				</div>
 
+		
+		
+
 				<div>
 
-					<h3> Home Phone </h3>
+					<h3 id="landline"> Home Phone </h3>
 					<input type="text" name="home-phone1">
 					<input type="text" name="home-phone2">
 					<input type="text" name="home-phone3"> <br>
 					
 					<p>###</p>
-					<p>###</p>
-					<p>###</p>
+					<p class="move-left">###</p>
+					<p class="move-left">###</p>
 				
 				</div>
 
@@ -201,8 +202,8 @@
 					<input type="text" name="work-phone3"> <br>
 					
 					<p>###</p>
-					<p>###</p>
-					<p id="work-phone">###</p>
+					<p class="move-left">###</p>
+					<p id="work-phone" class="move-left">###</p>
 					
 				</div>
 
@@ -213,7 +214,7 @@
 					<input type="text" name="hospital" class="full">
 				</div>
 
-				<div>
+				<div id="insurance">
 					
 					<label> Insurance Company</label>
 					<input type="text" name="insurance">
@@ -232,8 +233,8 @@
 					<input type="text" name="physician-tel-3" class="physician-no"> <br>
 
 					<p>###</p>
-					<p>###</p>
-					<p>###</p>
+					<p class="move-left">###</p>
+					<p class="move-left">###</p>
 				</div>
 
 				<div>

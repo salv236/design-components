@@ -21,6 +21,24 @@ body{
 		padding-bottom:$borderPadding;
 		}
 
+		div {
+			#landline{
+				clear:left;
+			}
+		}
+
+		#gender{
+			float:left;
+			width:45%;
+			margin-top: 2%;
+		}
+
+		#birthdate{
+			float:right;
+			width:55%;
+			margin-top:2%;
+		}
+
 
 	.full{
 		width:100%;
@@ -35,6 +53,23 @@ body{
 			border-top:$top;
 			padding-top:$borderPadding;
 		}
+
+		#state, #zip{
+			width:50%;
+			float: left;
+		}
+
+		#zip{
+			p{
+				display:block;
+			}
+		}
+
+		#state {
+			p{
+				display:block;
+			}
+		}
 	
 
 	#work-phone{
@@ -47,6 +82,10 @@ body{
 
 	}
 
+	#insurance{
+		margin-top:2%;
+	}
+
 	.physician {
 
 		.physician-no{
@@ -54,7 +93,6 @@ body{
 		}
 
 	}
-
 
 	textarea{
 		width: 90%;
@@ -68,4 +106,9 @@ body{
 
 	p{
 	display:inline-block;
+	}
+
+	/*GLOBAL*/
+	.move-left{
+		margin-left:20%;
 	}
