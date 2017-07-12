@@ -28,6 +28,10 @@ body{
 		}
 	}
 
+	#name{
+		margin: $spacing;
+	}
+
 	.address{
 		h3{
 			margin:$spacing;
@@ -85,6 +89,7 @@ body{
 			border-top:$top;
 			padding-top:$borderPadding;
 			margin:$spacing;
+			clear:both;
 		}
 
 		#state, #zip{
@@ -106,6 +111,14 @@ body{
 				display:block;
 				margin:$spacing;
 			}
+
+			input{
+				margin:$spacing;
+			}
+		}
+
+		select:last-of-type{
+			margin:$spacing;
 		}
 	
 
@@ -125,10 +138,13 @@ body{
 
 	#insurance{
 		margin-top:2%;
-		.physician-no{
-			width: 12%;
-		}
+		
 	}
+
+	.physician-no{
+			width: 10%;
+			margin:$spacing;
+		}
 
 	textarea{
 		width: 90%;
@@ -142,6 +158,10 @@ body{
 
 	p{
 	display:inline-block;
+	}
+
+	input[type=submit]{
+		margin:$spacing;
 	}
 
 	/*GLOBAL*/
