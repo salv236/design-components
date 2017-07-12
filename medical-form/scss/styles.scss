@@ -12,10 +12,11 @@ body{
 		width:50%;
 		margin:0 auto;
 		padding: 2% 5%;
-		border:1px groove #e3e3e3;
+		/*border:1px groove #e3e3e3; */
+		position:relative;
 
 		h1{
-		border-bottom:$bottom;
+		/*border-bottom:$bottom;*/
 		padding-bottom:$borderPadding;
 		font-size: 175%;
 		}
@@ -56,11 +57,18 @@ body{
 			margin:$spacing;
 			clear:left;
 		}
+		input{
+			width:$phoneWidth;
+		}
 	}
 
 	.work{
 		h3{
 		margin:$spacing;	
+		}
+
+		input{
+			width:$phoneWidth;
 		}
 	}
 
@@ -80,13 +88,8 @@ body{
 		width:100%;
 	}
 
-	#year{
-		padding-bottom:$borderPadding;
-
-	}
-
 		#emergency{
-			border-top:$top;
+			/*border-top:$top;*/
 			padding-top:$borderPadding;
 			margin:$spacing;
 			clear:both;
@@ -104,6 +107,19 @@ body{
 			p:first-of-type, p:last-of-type{
 				margin:$spacing;
 			}
+
+			input{
+				margin:$spacing;
+			}
+		}
+
+		select{
+			background-color: #f7f7f7;
+		}
+
+		select:first-of-type{
+			display:block;
+			margin:$spacing;
 		}
 
 		#state {
@@ -117,17 +133,39 @@ body{
 			}
 		}
 
-		select:last-of-type{
+		.block{
+			display:block;
 			margin:$spacing;
+		}
+
+		#day, #month, #year{
+			width:$phoneWidth;
+		}
+
+		#sub-year{
+			position:absolute;
+			right: 41%;
+    		top: 18%;
+		}
+
+		#sub-month{
+			position: absolute;
+			right: 46%;
+    		top: 18%;
+		}
+
+		#sub-day{
+			position: absolute;
+			top:18%;
 		}
 	
 
 	#work-phone{
-	border-bottom:$bottom;
+	/*border-bottom:$bottom; */
 	}
 
 	#medical-info{
-		border-top: $top;
+	/*	border-top: $top; */
 		padding-top:$borderPadding;
 
 		h3, input{
@@ -142,7 +180,7 @@ body{
 	}
 
 	.physician-no{
-			width: 10%;
+			width: $phoneWidth;
 			margin:$spacing;
 		}
 
@@ -162,9 +200,4 @@ body{
 
 	input[type=submit]{
 		margin:$spacing;
-	}
-
-	/*GLOBAL*/
-	.move-left{
-		margin-left:15%;
 	}
