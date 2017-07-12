@@ -21,14 +21,14 @@
 
 			<form>
 
-				<div>
+				<div id="firstName">
 
 					<h2> Name </h2>
 					<input type="text" name="first">
 					<input type="text" name="last"> <br>
 					
 					<p> First</p>
-					<p class="move-left">Last</p>
+					<p>Last</p>
 				
 				</div>
 
@@ -52,10 +52,11 @@
 							<input type="text" name="year" id="year">
 						</div>
 				</div>
-
+			<div>
 				<span id="sub-day"> DD</span>
 				<span id="sub-month"> MM</span>
 				<span id="sub-year"> YYYY</span>
+			</div>
 
 				<hr>
 
@@ -63,13 +64,13 @@
 
 				<p id="name">Name</p>
 
-				<div>
+				<div id="contact">
 
 					<input type="text" name="fname">
 					<input type="text" name="lname"> <br>
 						
 					<p> First</p>
-					<p class="move-left"> Last</p>
+					<p> Last</p>
 						
 				</div>
 
@@ -96,7 +97,10 @@
 				<div id="state">
 					<input type="text" name="state"> 
 					<p>State/Province/Region</p>
+				</div>
 
+
+				</div>
 					<select name="country">
 						<option value="--Select Your Country--" selected>--Select Your Country--</option>
 						<option value="Canada"> Canada</option>
@@ -107,7 +111,7 @@
 						<option value="Romania"> Romania</option>
 					</select>
 				</div>
-
+			<div>
 				<div id="landline">
 
 					<h3> Home Phone </h3>
@@ -118,11 +122,8 @@
 					<p> ### </p>
 					<span> ### </span>
 					<span> ### </span>
-				
 				</div>
-
-				<div class="work">
-
+				<div id="work">
 					<h3> Work Phone</h3>
 					<input type="text" name="work-phone1"> - 
 					<input type="text" name="work-phone2"> - 
@@ -131,8 +132,8 @@
 					<span> ### </span>
 					<span> ### </span>
 					<span> ### </span>
-					
 				</div>
+			</div> <!--wrapper-->
 
 				<hr>
 				<div id="medical-info">
