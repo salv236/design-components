@@ -7,16 +7,12 @@ body{
 	font-family: 'Lato', sans-serif;
 	/*background-color:#d2d2d2; */
 }
-
 	main{
 		width:50%;
 		margin:0 auto;
 		padding: 2% 5%;
-		/*border:1px groove #e3e3e3; */
-		position:relative;
 
 		h1{
-		/*border-bottom:$bottom;*/
 		padding-bottom:$borderPadding;
 		font-size: 175%;
 		}
@@ -27,6 +23,10 @@ body{
 			font-size: 140%;
 			margin: $spacing;
 		}
+	}
+
+	#firstName p:last-of-type, #contact p:last-of-type{
+		margin-left:15%;
 	}
 
 	#name{
@@ -53,6 +53,9 @@ body{
 	}
 
 	#landline{
+		
+		display: inline-block;
+		width:40%;
 		h3{
 			margin:$spacing;
 			clear:left;
@@ -62,7 +65,9 @@ body{
 		}
 	}
 
-	.work{
+	#work{
+		width:40%;
+		display:inline-block;
 		h3{
 		margin:$spacing;	
 		}
@@ -74,12 +79,12 @@ body{
 
 		#gender{
 			float:left;
-			width:45%;
+			width:40%;
 			margin-top: 2%;
 		}
 
 		#birthdate{
-			float:right;
+			/*float:right; */
 			width:55%;
 			margin-top:2%;
 		}
@@ -143,26 +148,19 @@ body{
 		}
 
 		#sub-year{
-			position:absolute;
-			right: 41%;
-    		top: 18%;
+			position:relative;
+			left:42%;
 		}
 
 		#sub-month{
-			position: absolute;
-			right: 46%;
-    		top: 18%;
+		 position:relative;
+		 left:41%;
 		}
 
 		#sub-day{
-			position: absolute;
-			top:18%;
+		 position:relative;
+		 left:40%;
 		}
-	
-
-	#work-phone{
-	/*border-bottom:$bottom; */
-	}
 
 	#medical-info{
 	/*	border-top: $top; */
@@ -175,7 +173,7 @@ body{
 	}
 
 	#insurance{
-		margin-top:2%;
+		margin-top:0%;
 		
 	}
 

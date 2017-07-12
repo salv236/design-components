@@ -8,17 +8,17 @@ body {
 main {
   width: 50%;
   margin: 0 auto;
-  padding: 2% 5%;
-  /*border:1px groove #e3e3e3; */
-  position: relative; }
+  padding: 2% 5%; }
   main h1 {
-    /*border-bottom:$bottom;*/
     padding-bottom: 2%;
     font-size: 175%; }
 
 div h2 {
   font-size: 140%;
   margin: 1.5% 0; }
+
+#firstName p:last-of-type, #contact p:last-of-type {
+  margin-left: 15%; }
 
 #name {
   margin: 1.5% 0; }
@@ -34,24 +34,30 @@ div h2 {
 h3 {
   font-size: 125%; }
 
-#landline h3 {
-  margin: 1.5% 0;
-  clear: left; }
-#landline input {
-  width: 5%; }
+#landline {
+  display: inline-block;
+  width: 40%; }
+  #landline h3 {
+    margin: 1.5% 0;
+    clear: left; }
+  #landline input {
+    width: 5%; }
 
-.work h3 {
-  margin: 1.5% 0; }
-.work input {
-  width: 5%; }
+#work {
+  width: 40%;
+  display: inline-block; }
+  #work h3 {
+    margin: 1.5% 0; }
+  #work input {
+    width: 5%; }
 
 #gender {
   float: left;
-  width: 45%;
+  width: 40%;
   margin-top: 2%; }
 
 #birthdate {
-  float: right;
+  /*float:right; */
   width: 55%;
   margin-top: 2%; }
 
@@ -96,21 +102,16 @@ select:first-of-type {
   width: 5%; }
 
 #sub-year {
-  position: absolute;
-  right: 41%;
-  top: 18%; }
+  position: relative;
+  left: 42%; }
 
 #sub-month {
-  position: absolute;
-  right: 46%;
-  top: 18%; }
+  position: relative;
+  left: 41%; }
 
 #sub-day {
-  position: absolute;
-  top: 18%; }
-
-#work-phone {
-  /*border-bottom:$bottom; */ }
+  position: relative;
+  left: 40%; }
 
 #medical-info {
   /*	border-top: $top; */
@@ -119,7 +120,7 @@ select:first-of-type {
     margin: 1.5% 0; }
 
 #insurance {
-  margin-top: 2%; }
+  margin-top: 0%; }
 
 .physician-no {
   width: 5%;
