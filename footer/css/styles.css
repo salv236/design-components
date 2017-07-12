@@ -3,6 +3,7 @@ body {
   background-color: #999; }
 
 footer {
+  display: flex;
   width: 99%;
   height: 90px;
   background-color: #f7f7f7;
