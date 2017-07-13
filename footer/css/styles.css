@@ -1,0 +1,47 @@
+body {
+  font-family: "Bellefair", serif;
+  background-color: #999; }
+
+footer {
+  display: flex;
+  /*creates a block element*/
+  flex-wrap: wrap;
+  width: 99%;
+  height: 50px;
+  background-color: #f7f7f7;
+  justify-content: space-between;
+  align-items: center;
+  position: absolute;
+  bottom: 0; }
+
+.right {
+  display: flex;
+  width: 500px; }
+
+#copyright {
+  width: 25%;
+  color: #8B4513;
+  display: flex;
+  justify-content: space-around; }
+
+.icons {
+  width: 25%;
+  color: #8B4513;
+  display: flex;
+  justify-content: space-around; }
+
+nav {
+  margin-right: 12.5%;
+  width: 25%; }
+
+nav ul {
+  list-style: none; }
+
+nav ul li {
+  display: inline; }
+
+nav ul li a {
+  text-decoration: none;
+  color: #8B4513; }
+
+/*# sourceMappingURL=styles.css.map */

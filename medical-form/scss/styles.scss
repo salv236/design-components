@@ -1,0 +1,201 @@
+@import 'variables';
+
+body{
+	margin:0;
+	padding:0;
+	box-sizing:border-box;
+	font-family: 'Lato', sans-serif;
+	/*background-color:#d2d2d2; */
+}
+	main{
+		width:50%;
+		margin:0 auto;
+		padding: 2% 5%;
+
+		h1{
+		padding-bottom:$borderPadding;
+		font-size: 175%;
+		}
+	}
+
+	div{
+		h2{
+			font-size: 140%;
+			margin: $spacing;
+		}
+	}
+
+	#firstName p:last-of-type, #contact p:last-of-type{
+		margin-left:15%;
+	}
+
+	#name{
+		margin: $spacing;
+	}
+
+	.address{
+		h3{
+			margin:$spacing;
+		}
+		p{
+			margin:$spacing;
+		}
+	}
+
+	.address-2{
+		p{
+			margin:$spacing;	
+		}
+	}
+
+	h3{
+		font-size:125%;
+	}
+
+	#landline{
+		
+		display: inline-block;
+		width:40%;
+		h3{
+			margin:$spacing;
+			clear:left;
+		}
+		input{
+			width:$phoneWidth;
+		}
+	}
+
+	#work{
+		width:40%;
+		display:inline-block;
+		h3{
+		margin:$spacing;	
+		}
+
+		input{
+			width:$phoneWidth;
+		}
+	}
+
+		#gender{
+			float:left;
+			width:40%;
+			margin-top: 2%;
+		}
+
+		#birthdate{
+			/*float:right; */
+			width:55%;
+			margin-top:2%;
+		}
+
+	.full{
+		width:100%;
+	}
+
+		#emergency{
+			/*border-top:$top;*/
+			padding-top:$borderPadding;
+			margin:$spacing;
+			clear:both;
+		}
+
+		#state, #zip{
+			width:50%;
+			float: left;
+		}
+
+		#zip{
+			p{
+				display:block;
+			}
+			p:first-of-type, p:last-of-type{
+				margin:$spacing;
+			}
+
+			input{
+				margin:$spacing;
+			}
+		}
+
+		select{
+			background-color: #f7f7f7;
+		}
+
+		select:first-of-type{
+			display:block;
+			margin:$spacing;
+		}
+
+		#state {
+			p{
+				display:block;
+				margin:$spacing;
+			}
+
+			input{
+				margin:$spacing;
+			}
+		}
+
+		.block{
+			display:block;
+			margin:$spacing;
+		}
+
+		#day, #month, #year{
+			width:$phoneWidth;
+		}
+
+		#sub-year{
+			position:relative;
+			left:42%;
+		}
+
+		#sub-month{
+		 position:relative;
+		 left:41%;
+		}
+
+		#sub-day{
+		 position:relative;
+		 left:40%;
+		}
+
+	#medical-info{
+	/*	border-top: $top; */
+		padding-top:$borderPadding;
+
+		h3, input{
+			margin:$spacing;
+		}
+
+	}
+
+	#insurance{
+		margin-top:0%;
+		
+	}
+
+	.physician-no{
+			width: $phoneWidth;
+			margin:$spacing;
+		}
+
+	textarea{
+		width: 90%;
+	    height: 120px;
+	    margin-top: 2%;
+	}
+
+	#text{
+	display:block;
+	}
+
+	p{
+	display:inline-block;
+	}
+
+	input[type=submit]{
+		margin:$spacing;
+	}

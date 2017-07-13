@@ -1,0 +1,30 @@
+body {
+  background-color: #aaa; }
+
+.container {
+  border: 1px solid black;
+  width: 60%;
+  margin: 1% auto 20%;
+  background-color: #ddd;
+  height: 90px;
+  text-align: center;
+  padding-top: 4%; }
+
+span {
+  width: 8%;
+  height: 20px;
+  display: inline-block;
+  background-color: #00007f;
+  border-radius: 10%;
+  color: #fff; }
+
+  span:first-of-type, span:nth-of-type(5){
+  	background-color:#ddd;
+  	font-weight:600;
+  }
+
+  span:nth-of-type(7){
+  	background-color:#6666ff;
+  }
+
+/*# sourceMappingURL=styles.css.map */

@@ -1,0 +1,143 @@
+body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Lato', sans-serif;
+  /*background-color:#d2d2d2; */ }
+
+main {
+  width: 50%;
+  margin: 0 auto;
+  padding: 2% 5%; }
+  main h1 {
+    padding-bottom: 2%;
+    font-size: 175%; }
+
+div h2 {
+  font-size: 140%;
+  margin: 1.5% 0; }
+
+#firstName p:last-of-type, #contact p:last-of-type {
+  margin-left: 15%; }
+
+#name {
+  margin: 1.5% 0; }
+
+.address h3 {
+  margin: 1.5% 0; }
+.address p {
+  margin: 1.5% 0; }
+
+.address-2 p {
+  margin: 1.5% 0; }
+
+h3 {
+  font-size: 125%; }
+
+#landline {
+  display: inline-block;
+  width: 40%; }
+  #landline h3 {
+    margin: 1.5% 0;
+    clear: left; }
+  #landline input {
+    width: 5%; }
+
+#work {
+  width: 40%;
+  display: inline-block; }
+  #work h3 {
+    margin: 1.5% 0; }
+  #work input {
+    width: 5%; }
+
+#gender {
+  float: left;
+  width: 40%;
+  margin-top: 2%; }
+
+#birthdate {
+  /*float:right; */
+  width: 55%;
+  margin-top: 2%; }
+
+.full {
+  width: 100%; }
+
+#emergency {
+  /*border-top:$top;*/
+  padding-top: 2%;
+  margin: 1.5% 0;
+  clear: both; }
+
+#state, #zip {
+  width: 50%;
+  float: left; }
+
+#zip p {
+  display: block; }
+#zip p:first-of-type, #zip p:last-of-type {
+  margin: 1.5% 0; }
+#zip input {
+  margin: 1.5% 0; }
+
+select {
+  background-color: #f7f7f7; }
+
+select:first-of-type {
+  display: block;
+  margin: 1.5% 0; }
+
+#state p {
+  display: block;
+  margin: 1.5% 0; }
+#state input {
+  margin: 1.5% 0; }
+
+.block {
+  display: block;
+  margin: 1.5% 0; }
+
+#day, #month, #year {
+  width: 5%; }
+
+#sub-year {
+  position: relative;
+  left: 42%; }
+
+#sub-month {
+  position: relative;
+  left: 41%; }
+
+#sub-day {
+  position: relative;
+  left: 40%; }
+
+#medical-info {
+  /*	border-top: $top; */
+  padding-top: 2%; }
+  #medical-info h3, #medical-info input {
+    margin: 1.5% 0; }
+
+#insurance {
+  margin-top: 0%; }
+
+.physician-no {
+  width: 5%;
+  margin: 1.5% 0; }
+
+textarea {
+  width: 90%;
+  height: 120px;
+  margin-top: 2%; }
+
+#text {
+  display: block; }
+
+p {
+  display: inline-block; }
+
+input[type=submit] {
+  margin: 1.5% 0; }
+
+/*# sourceMappingURL=styles.css.map */

@@ -1,11 +1,12 @@
 <!DOCTYPE html>
 <html lang="en">
 	<head>
-		<title> ToDoList</title>
+		<title> Emergecy Medical contact Form</title>
 			<meta charset="UTF-8">
 			<meta name="viewport" content="width=device-width, initial-scale=1.0">
 			<!--<meta name="description" content="#">-->
-			<!--<link rel="stylesheet" href="css/font-awesome.css"> -->
+			<link href="https://fonts.googleapis.com/css?family=Lato:400,700" rel="stylesheet">
+			<link rel="stylesheet" href="css/reset.css">
 			<link rel="stylesheet" href="css/styles.css">
 			<!--[if lt IE 9]>
 		  		<script src="//cdnjs.cloudflare.com/ajax/libs/html5shiv/3.7.3/html5shiv.min.js"></script>
@@ -13,151 +14,166 @@
 	</head>
 	<body>
 
-		<h1> Emergency Contact &amp; Medical Information </h1>
-		<!--border bottom under h1-->
+		<main>
 
-		<form>
+			<h1> Emergency Contact &amp; Medical Information </h1>
+			<hr>
 
-			<div>
+			<form>
 
-				<h2> Name </h2>
-				<input type="text" name="first" value="first">
-				<label> First</label>
-				<input type="text" name="last" value="last">
-				<label>Last</label>
-			
-		</div>
+				<div id="firstName">
 
-		<div>
-			<p> Gender</p>
-
-			<select name="gender">
-				<option value="--Select Your Gender---" selected> --Select Your Gender-- </option>
-				<option value="male"> Male</option>
-				<option value="Female"> Female </option>
-			</select>
-
-			</div>
-
-			<div>
-
-				<p> Date Of Birth</p>
-
-				<select name="day">
+					<h2> Name </h2>
+					<input type="text" name="first">
+					<input type="text" name="last"> <br>
 					
-					<option value ="--Select Your Day" selected> --Select Your Day-- </option>
-					<option value ="01"> 01</option>
-					<option value ="02"> 02</option>
-					<option value ="03"> 03</option>
-					<option value ="04"> 04</option>
-					<option value ="05"> 05</option>
-					<option value ="06"> 06</option>
-					<option value ="07"> 07</option>
-					<option value ="08"> 08</option>
-					<option value ="09"> 09</option>
-					<option value ="10"> 10</option>
-					<option value ="11"> 11</option>
-					<option value ="12"> 12</option>
-					<option value ="13"> 13</option>
-					<option value ="14"> 14</option>
-					<option value ="15"> 15</option>
-					<option value ="16"> 16</option>
-					<option value ="17"> 17</option>
-					<option value ="18"> 18</option>
-					<option value ="19"> 19</option>
-					<option value ="20"> 20</option>
-					<option value ="21"> 21</option>
-					<option value ="22"> 22</option>
-					<option value ="23"> 23</option>
-					<option value ="24"> 24</option>
-					<option value ="25"> 25</option>
-					<option value ="26"> 26</option>
-					<option value ="27"> 27</option>
-					<option value ="28"> 28</option>
-					<option value ="29"> 29</option>
-					<option value ="30"> 30</option>
-					<option value ="31"> 31</option>
-
-				</select>
-				<label> Day</label>
-
-				<select name="month">
-					
-					<option value="--Select Your Month--" selected> --Select Your Month-- </option>
-					<option value="Jan"> 01 </option>
-					<option value="Feb"> 02 </option>
-					<option value="March"> 03 </option>
-					<option value="April"> 04 </option>
-					<option value="May"> 05 </option>
-					<option value="June"> 06 </option>
-					<option value="July"> 07 </option>
-					<option value="Aug"> 08 </option>
-					<option value="Sept"> 09 </option>
-					<option value="Oct"> 10 </option>
-					<option value="Nov"> 11 </option>
-					<option value="Dec"> 12 </option>
-				</select>
-				<label> Month</label>
-
-				<select name="year">
-				<option value="--Please Select Your Year--" selected>--Please Select Your Year--</option>
-				<option value="2000"> 2000</option>
-				<option value="2001"> 2001</option>
-				<option value="2002"> 2002</option>
-				<option value="2003"> 2003</option>
-				<option value="2004"> 2004</option>
-				<option value="2005"> 2005</option>
-				<option value="2006"> 2006</option>
-				<option value="2007"> 2007</option>
-				<option value="2008"> 2008</option>
-				<option value="2009"> 2009</option>
-				<option value="2010"> 2010</option>
-				<option value="2011"> 2011</option>
-				<option value="2012"> 2012</option>
-				<option value="2013"> 2013</option>
-				<option value="2014"> 2014</option>
-				<option value="2015"> 2015</option>
-				<option value="2016"> 2016</option>
-				<option value="2017"> 2017</option>
-				</select>
-				<label>Year</label>
-
-			</div>
-
-			<!-- border-bottom-->
-
-			<h2>Emergency Contact</h2>
-
-			<p>Name</p>
-
-			<div>
-
-			<input type="text" name="fname">
-				<label> First</label>
-				<input type="text" name="lname">
-				<label> Last</label>
-			</div>
-
-			<h2>Address</h2>
-
-			<div>
+					<p> First</p>
+					<p>Last</p>
 				
-				<input type="text" name="address-line-1">
-				<label>Street Address</label>
+				</div>
 
-				<input type="text" name="address-line-2">
-				<label>Address Line 2</label>
+			<div id="gender">
+				<p> Gender</p>
 
-				<input type="text" name="city" >
-				<label>City</label>
+				<select name="gender">
+					<option value="--Select Your Gender---" selected> --Select Your Gender-- </option>
+					<option value="male"> Male</option>
+					<option value="Female"> Female </option>
+				</select>
 
-				<input type="text" name="state" >
-				<label>State/Province/Region</label>
-
-				<input type="text" name="postcode">
 			</div>
-			
-		</form>
-		
+
+				<div id="birthdate">
+
+					<label>Date Of Birth </label>
+						<div class="block">
+							<input type="text" name="day" id="day"> /
+							<input type="text" name="month" id="month"> /
+							<input type="text" name="year" id="year">
+						</div>
+				</div>
+			<div>
+				<span id="sub-day"> DD</span>
+				<span id="sub-month"> MM</span>
+				<span id="sub-year"> YYYY</span>
+			</div>
+
+				<hr>
+
+				<h3 id="emergency">Emergency Contact</h3>
+
+				<p id="name">Name</p>
+
+				<div id="contact">
+
+					<input type="text" name="fname">
+					<input type="text" name="lname"> <br>
+						
+					<p> First</p>
+					<p> Last</p>
+						
+				</div>
+
+				<div class="address">
+					<h3>Address</h3>
+					<input type="text" name="address-line-1" class="full">
+					<p>Street Address</p>
+				</div>
+
+				<div class="address-2">
+					<input type="text" name="address-line-2" class="full">
+					<p>Address Line 2</p>
+				</div>
+
+				<div id="zip">
+					<input type="text" name="city" > <br>
+					<p>City</p>
+
+					<input type="text" name="postcode"> <br>
+					<p> Zip/Postcode</p>
+				</div>
+
+					
+				<div id="state">
+					<input type="text" name="state"> 
+					<p>State/Province/Region</p>
+				</div>
+
+
+				</div>
+					<select name="country">
+						<option value="--Select Your Country--" selected>--Select Your Country--</option>
+						<option value="Canada"> Canada</option>
+						<option value="US"> US</option>
+						<option value="Sicily"> Sicily</option>
+						<option value="Spain"> Spain</option>
+						<option value="Australia"> Australia</option>
+						<option value="Romania"> Romania</option>
+					</select>
+				</div>
+			<div>
+				<div id="landline">
+
+					<h3> Home Phone </h3>
+					<input type="text" name="home-phone1"> - 
+					<input type="text" name="home-phone2"> - 
+					<input type="text" name="home-phone3"> <br>
+					
+					<p> ### </p>
+					<span> ### </span>
+					<span> ### </span>
+				</div>
+				<div id="work">
+					<h3> Work Phone</h3>
+					<input type="text" name="work-phone1"> - 
+					<input type="text" name="work-phone2"> - 
+					<input type="text" name="work-phone3"> <br>
+					
+					<span> ### </span>
+					<span> ### </span>
+					<span> ### </span>
+				</div>
+			</div> <!--wrapper-->
+
+				<hr>
+				<div id="medical-info">
+					<h3> Medical Information </h3>
+					<label> Hospital/ Clinical Information</label>
+					<input type="text" name="hospital" class="full">
+				</div>
+
+				<div id="insurance">
+					
+					<label> Insurance Company</label>
+					<input type="text" name="insurance">
+
+					<label>Physician's Name</label>
+					<input type="text" name="physician">
+					
+				</div>
+
+				<div class="insurance">
+
+					<label> Policy Number</label>
+					<input type="text" name="insurance">		
+
+					<p>Phone Number: </p>
+					<input type="text" name="physician-tel-1" class="physician-no"> - 
+					<input type="text" name="physician-tel-2" class="physician-no"> - 
+					<input type="text" name="physician-tel-3" class="physician-no"> <br>
+
+					<span> ### </span>
+					<span> ### </span>
+					<span> ### </span>
+				</div>
+
+				<div>
+					<textarea> </textarea>
+					<p id="text"> Alergies/ Special Health Considerations</p>
+				</div>
+
+				<input type="submit" name="submit">
+			</form>
+		</main>
 	</body>
 </html>

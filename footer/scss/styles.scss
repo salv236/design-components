@@ -1,0 +1,65 @@
+@import 'variables';
+
+body{
+	font-family: $font;
+	background-color: #999;
+
+}
+
+footer{
+	display:flex;  /*creates a block element*/
+	flex-wrap: wrap;
+	width:99%;
+	height:50px;
+	background-color:$bcolor;
+	justify-content: space-between;
+	align-items: center;
+	position:absolute;
+	bottom:0;
+
+}
+.right{
+	display: flex;
+	width:500px;
+}
+
+#copyright{
+	width:25%; 
+	color:$textColor;
+	display: flex;
+	justify-content: space-around;
+}
+
+.icons{
+	width:25%;
+	color:$textColor;
+	display: flex;
+	justify-content: space-around;
+}
+
+nav{
+	margin-right:12.5%;
+	width:25%; 
+}
+
+nav {
+	ul{
+	list-style:none;
+	} 
+}
+
+nav {
+	ul li{
+	display:inline;
+
+	} 
+	
+}
+
+nav {
+		ul li a{
+		text-decoration:none;
+		color:$textColor;
+	}
+
+} 
