@@ -1,0 +1,11 @@
+.grid {
+  width: 70%;
+  margin: 5% auto; }
+
+[class*='col-'] {
+  padding-right: 40px; }
+
+h3 {
+  color: #007f00; }
+
+/*# sourceMappingURL=styles.css.map */
