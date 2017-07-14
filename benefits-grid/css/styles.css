@@ -1,3 +1,8 @@
+
+body{
+	font-family: 'Slabo 27px', serif;
+}
+
 .grid {
   width: 70%;
   margin: 5% auto; }
