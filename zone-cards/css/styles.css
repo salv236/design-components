@@ -1,0 +1,21 @@
+main {
+  border: 1px solid #000;
+  margin: 5% auto;
+  width: 90%; }
+
+.grid {
+  width: 90%;
+  margin: 3% auto; }
+
+h1 {
+  margin-left: 5%; }
+
+span {
+  position: absolute;
+  top: 17%;
+  right: 12%; }
+
+div p:nth-of-type(2) {
+  color: #070; }
+
+/*# sourceMappingURL=styles.css.map */
