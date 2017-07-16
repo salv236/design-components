@@ -1,0 +1,25 @@
+body {
+  background-image: url("../img/hero-image.jpg");
+  background-repeat: no-repeat;
+  background-size: 70%;
+  font-family: 'Roboto Condensed', sans-serif; }
+
+.container {
+  margin-top: 7%; }
+
+.content {
+  margin-left: 1.2%; }
+
+button {
+  border-radius: 5%;
+  -webkit-border-radius: 5%;
+  -moz-border-radius: 5%;
+  -o-border-radius: 5%;
+  text-decoration: none;
+  display: inline-block;
+  background-color: #ffa731;
+  width: 10%;
+  height: 37px;
+  color: #000; }
+
+/*# sourceMappingURL=styles.css.map */
