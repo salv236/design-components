@@ -7,9 +7,19 @@ body {
 .container {
   margin-top: 7%; }
 
-a {
+.content {
+  margin-left: 1.2%; }
+
+button {
+  border-radius: 5%;
+  -webkit-border-radius: 5%;
+  -moz-border-radius: 5%;
+  -o-border-radius: 5%;
   text-decoration: none;
   display: inline-block;
+  background-color: #ffa731;
+  width: 10%;
+  height: 37px;
   color: #000; }
 
 /*# sourceMappingURL=styles.css.map */
