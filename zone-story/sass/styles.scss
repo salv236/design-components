@@ -1,0 +1,39 @@
+@import 'mixins';
+
+body {
+	background-color: #000;
+	font-family: 'Montserrat', sans-serif;
+	color:#505050;
+}
+
+.grid {
+	margin-top:10%;
+	width: 90%;
+    margin-left: 3%;
+}
+
+.grid-pad{
+	padding-top: 7%;
+    padding-left: 9%;
+}
+
+img{
+	margin-top:5%;
+	margin-bottom:5%;
+}
+
+/*@mixin border{
+	border-radius:8%;
+	-moz-border-radius:8%;
+	-webkit-border-radius:8%;
+	-o-border-radius:8%;
+}*/
+
+button {
+	@include border;
+	background-color:#21B6A8;
+	width:70%;
+	height:40px;
+	color:#fff;
+	font-size:100%;
+}
