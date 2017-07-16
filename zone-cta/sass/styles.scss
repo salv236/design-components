@@ -1,0 +1,41 @@
+.container {
+	border:1px solid #000;
+	width:70%;
+	margin:2% auto 0 auto;
+}
+
+.content{
+	text-align:center;
+	padding-bottom:3%;
+
+}
+
+span {
+	color: #bfb;
+}
+
+@mixin btn-border{
+	border-radius: 3%;
+	-moz-border-radius: 3%;
+	-webkit-border-radius:3%;
+	-o-border-radius:3%;
+}
+
+a{
+		@include btn-border;
+		text-align: center;
+		text-decoration: none;
+		display: inline-block;
+		padding-top:1%;
+		margin-left:32%;
+		margin-bottom: 5%;
+		width:30%;
+		height:40px;
+		background-color:#070;
+		color:#fff;
+	}
+
+
+
+	 
+		
