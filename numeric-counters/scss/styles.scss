@@ -1,7 +1,16 @@
+@import 'gradients';
+
+.content-wrapper{
+	display:flex;
+	justify-content: flex-end;
+	/*flex-direction: column;*/
+	/*align-content: column;*/
+}
+
 .yellow{
 	outline:1px solid black;
 	width:5%;
-	background: linear-gradient(to bottom, #ffff8b, #ffffe0);
+	@include gradients;
 
 }
 
