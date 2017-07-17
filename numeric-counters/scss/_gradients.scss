@@ -1,0 +1,6 @@
+@mixin gradients {
+	background: linear-gradient(to bottom, #ffff7a, #ffffe0);
+	background: -moz-linear-gradient(to bottom, #ffff7a, #ffffe0);
+	background: -webkit-linear-gradient(to bottom, #ffff7a, #ffffe0);
+	background: -o-linear-gradient(to bottom, #ffff7a, #ffffe0);
+}
