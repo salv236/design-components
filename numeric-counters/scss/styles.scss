@@ -1,10 +1,18 @@
 @import 'gradients';
 
+main {
+	width: 70%;
+    margin: 5% auto;
+    border: 1px solid #000;
+}
+
 .content-wrapper{
 	display:flex;
-	justify-content: flex-end;
-	/*flex-direction: column;*/
-	/*align-content: column;*/
+	flex-direction:column;
+	align-items: flex-end;
+	position: relative;
+    right: 5%;
+	/*justify-content: flex-end;*/
 }
 
 .yellow{
@@ -18,4 +26,21 @@
 	outline:1px solid black;
 	width:5%;
 	height:32px;
+}
+
+.yellow, .blue{
+	margin-top:2%;
+}
+
+section {
+	width: 70%;
+    margin: -5% auto 0 auto;
+}
+
+.reinvent{
+ color:#86c8da;
+}
+
+.death {
+ color:#e6e6e9;
 }
