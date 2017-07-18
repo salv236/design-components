@@ -4,7 +4,7 @@ body {
   box-sizing: border-box; }
 
 main {
-  width: 70%;
+  width: 65%;
   margin: 5% auto;
   border: 1px solid #000; }
 
@@ -17,18 +17,25 @@ main {
   /*justify-content: flex-end;*/ }
 
 .yellow {
-  outline: 1px solid black;
   width: 5%;
   background: linear-gradient(to bottom, #ffff7a, #ffffe0);
   background: -moz-linear-gradient(to bottom, #ffff7a, #ffffe0);
   background: -webkit-linear-gradient(to bottom, #ffff7a, #ffffe0);
-  background: -o-linear-gradient(to bottom, #ffff7a, #ffffe0); }
+  background: -o-linear-gradient(to bottom, #ffff7a, #ffffe0);
+  border-top-left-radius: 10%;
+  -webkit-border-top-left-radius: 10%;
+  -moz-border-top-left-radius: 10%;
+  -o-border-top-left-radius: 10%;
+  border-bottom-right-radius: 50%;
+  -webkit-border-bottom-right-radius: 50%;
+  -moz-border-bottom-right-radius: 50%;
+  -o-border-bottom-right-radius: 50%; }
 
 .blue {
   outline: 1px solid black;
   width: 5%;
   height: 32px;
-  color: #bbf; }
+  color: #3798b3; }
 
 .yellow, .blue {
   margin-top: 2%; }
@@ -43,11 +50,21 @@ span {
   color: #d4d4e0;
   font-size: 170%; }
 
+#paragraph-1 {
+  color: #86c8da;
+  font-size: 100%;
+  position: static; }
+
+#paragraph-2 {
+  color: #a4a8bf;
+  font-size: 100%;
+  position: static; }
+
 p {
   margin: 0; }
 
 .reinvent {
-  color: #86c8da; }
+  color: #3798b3; }
 
 .death {
   color: #a4a8bf; }

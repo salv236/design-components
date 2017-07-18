@@ -1,0 +1,10 @@
+@mixin radius{
+	border-top-left-radius: 10%;
+	-webkit-border-top-left-radius: 10%;
+	-moz-border-top-left-radius: 10%;
+	-o-border-top-left-radius: 10%;
+	border-bottom-right-radius: 50%;
+	-webkit-border-bottom-right-radius: 50%;
+	-moz-border-bottom-right-radius: 50%;
+	-o-border-bottom-right-radius: 50%;
+}
