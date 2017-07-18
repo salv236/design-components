@@ -1,0 +1,29 @@
+@import 'variables';
+
+#hamburger{
+	margin-left:35%;
+}
+
+.col-1-4{
+	border:1px solid #000;
+	height:400px;
+}
+
+span{
+	display:inline-block;
+}
+
+.red, .box {
+	color:$red;
+}
+
+.box {
+	width:40%;
+	height:35px;
+	background-color: $red;
+	color:#fff;
+}
+
+/*p{
+	margin:0;
+}*/

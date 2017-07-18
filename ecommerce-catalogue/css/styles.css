@@ -1,3 +1,24 @@
+#hamburger {
+  margin-left: 35%; }
 
+.col-1-4 {
+  border: 1px solid #000;
+  height: 400px; }
+
+span {
+  display: inline-block; }
+
+.red, .box {
+  color: #d44651; }
+
+.box {
+  width: 40%;
+  height: 35px;
+  background-color: #d44651;
+  color: #fff; }
+
+/*p{
+	margin:0;
+}*/
 
 /*# sourceMappingURL=styles.css.map */
