@@ -1,5 +1,11 @@
 @import 'gradients';
 
+body{
+	margin:0;
+	padding:0;
+	box-sizing: border-box;
+}
+
 main {
 	width: 70%;
     margin: 5% auto;
@@ -26,6 +32,7 @@ main {
 	outline:1px solid black;
 	width:5%;
 	height:32px;
+	color:#bbf;
 }
 
 .yellow, .blue{
@@ -34,7 +41,18 @@ main {
 
 section {
 	width: 70%;
-    margin: -5% auto 0 auto;
+    margin: -5% auto 4% auto;
+}
+
+span {
+	position: absolute;
+    left: 22%;
+    color:#d4d4e0;
+    font-size:170%;
+}
+
+p{
+	margin:0;
 }
 
 .reinvent{
@@ -42,5 +60,5 @@ section {
 }
 
 .death {
- color:#e6e6e9;
+ color:#a4a8bf;
 }
