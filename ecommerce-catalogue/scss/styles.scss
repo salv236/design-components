@@ -1,0 +1,69 @@
+@import 'variables';
+@import 'mixins';
+
+body{
+	font-family: 'Trebuchet MS', Helvetica, sans-serif;
+}
+
+#hamburger{
+	margin-left:42.5%;
+}
+
+.col-1-4{
+	border:1px solid #000;
+	height:400px;
+}
+
+.col-1-4 p:nth-of-type(3){
+	color:#888;
+} 
+
+.product{
+	display: block;
+    margin: auto;
+}
+
+p, #offer{
+	text-align: center;
+}
+
+
+.price {
+	position: relative;
+    left: 35%;
+}
+
+#offer{
+	color:$red;
+}
+
+span{
+	display:inline-block;
+}
+
+.red, .box {
+	color:$red;
+}
+
+progress {
+	margin-left:25%;
+}
+
+button {
+	margin: 5% 0 0 10%;
+	width: 70%;
+    height: 40px;
+    background-color:#cc0;
+    @include border;
+    color:$text;
+    font-weight:600;
+    font-size:90%;
+}
+
+.box {
+	width:40%;
+	height:35px;
+	margin-left:30%;
+	background-color: $red;
+	color:$text;
+}
