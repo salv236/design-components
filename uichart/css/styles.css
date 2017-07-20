@@ -1,3 +1,28 @@
+body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box; }
 
+table tr td {
+  border: 1px solid #000;
+  border-collapse: collapse; }
+
+#dark-blue {
+  background-color: #44f; }
+
+#medium-blue {
+  background-color: #88f; }
+
+#medium-close {
+  background-color: #bfd5fa; }
+
+#pale-blue {
+  background-color: #eff4fe; }
+
+#average-blue {
+  background-color: #90b5f7; }
+
+#mediocre {
+  background-color: #dfeafd; }
 
 /*# sourceMappingURL=styles.css.map */

@@ -6,6 +6,11 @@ body {
 	box-sizing: border-box;
 }
 
+table tr td{
+	border:1px solid #000;
+	border-collapse: collapse;
+}
+
 #dark-blue{
  background-color:$hundred;
 }
@@ -14,10 +19,18 @@ body {
 	background-color: $medium;
 }
 
+#medium-close{
+	background-color: $mediumish;
+}
+
 #pale-blue{
 	background-color: $pale;
 }
 
 #average-blue{
 	background-color: $average;
+}
+
+#mediocre {
+	background-color: $mediocre;
 }
