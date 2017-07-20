@@ -1,0 +1,23 @@
+@import 'variables';
+
+body {
+	margin:0;
+	padding:0;
+	box-sizing: border-box;
+}
+
+#dark-blue{
+ background-color:$hundred;
+}
+
+#medium-blue{
+	background-color: $medium;
+}
+
+#pale-blue{
+	background-color: $pale;
+}
+
+#average-blue{
+	background-color: $average;
+}
